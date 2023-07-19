@@ -1,7 +1,7 @@
 import cheerio from "cheerio";
 import axios from "axios";
 import cryptoJs from 'crypto-js'
-import key from "../../key.js";
+//import key from "../../key.js";
 
 const getServers = async (id, type) => {
   const url = (type === "movie") ? `https://flixhq.to/ajax/movie/episodes/${id}` : `https://flixhq.to/ajax/v2/episode/servers/${id}`
