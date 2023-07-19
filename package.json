@@ -4,10 +4,11 @@
   "description": "",
   "main": "index.js",
   "type": "module",
-  "scripts": {
-    "start": "nodemon index",
-    "test": "nodemon test.js"
-  },
+   "scripts": {
+            "start": "node index",
+            "dev": "nodemon index"
+         },
+  
   "keywords": [],
   "author": "",
   "license": "ISC",
